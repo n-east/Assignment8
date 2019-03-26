@@ -1,14 +1,54 @@
 largest_number = True
+
 first_number = int(input("Please enter a number: "))
+while first_number < 0 or first_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    first_number = int(input("Please enter a number: "))
+
 second_number = int(input("Please enter another number: "))
+while second_number < 0 or second_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    second_number = int(input("Please enter another number: "))
+
 third_number = int(input("Please enter another number: "))
+while third_number < 0 or third_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    third_number = int(input("Please enter another number: "))
+
 fourth_number = int(input("Please enter yet another number: "))
-fifth_number = int(input("Please enter yet another number: "))
+while fourth_number < 0 or fourth_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    fourth_number = int(input("Please enter yet another number: "))
+
+fifth_number = int(input("Please enter a fifth number: "))
+while fifth_number < 0 or fifth_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    fifth_number = int(input("Please enter a fifth number: "))
+
 sixth_number = int(input("Please enter a sixth number: "))
+while sixth_number < 0 or sixth_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    sixth_number = int(input("Please enter a sixth number: "))
+
 seventh_number = int(input("Please enter a seventh number: "))
+while seventh_number < 0 or seventh_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    seventh_number = int(input("Please enter a seventh number: "))
+
 eigth_number = int(input("Please enter an eigth number: "))
+while eigth_number < 0 or eigth_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    eigth_number = int(input("Please enter an eigth number: "))
+
 ninth_number = int(input("Please enter a ninth number: "))
+while ninth_number < 0 or ninth_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    ninth_number = int(input("Please enter a ninth number: "))
+
 tenth_number = int(input("Please enter a tenth number: "))
+while tenth_number < 0 or tenth_number > 10000:
+    print("Please enter a number greater than 0 and less than 10000.")
+    tenth_number = int(input("Please enter a tenth number: "))
 
 def print_results():
     if (first_number > second_number and first_number > third_number and first_number > fourth_number and first_number > fifth_number
